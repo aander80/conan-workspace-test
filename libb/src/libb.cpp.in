@@ -1,0 +1,9 @@
+#include "libb.h"
+
+#include <iostream>
+
+#cmakedefine LIBB_VERSION "@LIBB_VERSION@"
+
+void print_libb_version() {
+    std::cout << "libb " << LIBB_VERSION << std::endl;
+}
