@@ -1,0 +1,3 @@
+[submodule "memsharded-conan"]
+	path = memsharded-conan
+	url = git@github.com:memsharded/conan.git
