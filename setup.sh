@@ -6,3 +6,4 @@ cd $SCRIPT_DIR
 rm -rf .venv
 uv venv
 uv pip install ./memsharded-conan
+uv pip install dunamai==1.22.0
