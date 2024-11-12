@@ -1,0 +1,9 @@
+#include "app.h"
+
+#include <iostream>
+
+#cmakedefine APP_VERSION "@APP_VERSION@"
+
+void print_app_version() {
+    std::cout << "app " << APP_VERSION << std::endl;
+}
