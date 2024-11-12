@@ -1,0 +1,9 @@
+#include "liba.h"
+
+#include <iostream>
+
+#cmakedefine LIBA_VERSION "@LIBA_VERSION@"
+
+void print_liba_version() {
+    std::cout << "liba " << LIBA_VERSION << std::endl;
+}
