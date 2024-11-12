@@ -2,6 +2,15 @@
 
 The commands here assume WSL/Linux, but they might work in Git Bash in Windows, too.
 
+To use this repo to test things out, start by running `./setup.sh`. This requires
+[uv](https://github.com/astral-sh/uv). A virtual environment will be installed with
+[memsharded/conan](https://github.com/memsharded/conan/tree/feature/workspace_base) and
+[dunamai](https://github.com/mtkennerly/dunamai). Activate this environment by running
+`. ./activate`.
+
+There are two static libraries: `liba` and `libb`. There is also an application: `app`, which will
+print the versions of `liba`, `libb` and `app` respectively when run.
+
 ## Version diff
 
 When using dynamic versioning, workspace editables becomes a bit weird. The static versions of
