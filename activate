@@ -4,3 +4,4 @@ source $SCRIPT_DIR/.venv/bin/activate
 
 # TODO: Can this be configured in conanws.yml?
 export CONAN_HOME=$SCRIPT_DIR/.conan2
+export CONAN_WORKSPACE_ENABLE="will_break_next"

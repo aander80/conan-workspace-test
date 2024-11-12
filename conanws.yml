@@ -1,0 +1,7 @@
+editables:
+  app/0.0.1-pre.9+ac72de1:
+    path: app/conanfile.py
+  liba/0.0.1-pre.9+ac72de1:
+    path: liba/conanfile.py
+  libb/0.0.1-pre.9+ac72de1:
+    path: libb/conanfile.py
